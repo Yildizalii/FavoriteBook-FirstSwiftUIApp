@@ -11,6 +11,8 @@
 		41A8969927D383C300DF9B34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8969827D383C300DF9B34 /* ContentView.swift */; };
 		41A8969B27D383C500DF9B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A8969A27D383C500DF9B34 /* Assets.xcassets */; };
 		41A8969E27D383C500DF9B34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A8969D27D383C500DF9B34 /* Preview Assets.xcassets */; };
+		41A896A527D3846C00DF9B34 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A896A427D3846C00DF9B34 /* FavoriteModel.swift */; };
+		41F0839F27D4982F00415E8F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F0839E27D4982F00415E8F /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		41A8969827D383C300DF9B34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41A8969A27D383C500DF9B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A8969D27D383C500DF9B34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41A896A427D3846C00DF9B34 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		41F0839E27D4982F00415E8F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				41A8969827D383C300DF9B34 /* ContentView.swift */,
 				41A8969A27D383C500DF9B34 /* Assets.xcassets */,
 				41A8969C27D383C500DF9B34 /* Preview Content */,
+				41A896A427D3846C00DF9B34 /* FavoriteModel.swift */,
+				41F0839E27D4982F00415E8F /* DetailsView.swift */,
 			);
 			path = FavoriteBookSwiftUI;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41A896A527D3846C00DF9B34 /* FavoriteModel.swift in Sources */,
+				41F0839F27D4982F00415E8F /* DetailsView.swift in Sources */,
 				41A8969927D383C300DF9B34 /* ContentView.swift in Sources */,
 				41A8969727D383C300DF9B34 /* FavoriteBookSwiftUIApp.swift in Sources */,
 			);

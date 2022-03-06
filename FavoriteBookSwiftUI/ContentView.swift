@@ -9,11 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        NavigationView{
+        List(favorite) { favorite in
+            Section {
+                ForEach(favorite.elements) { element in
+                    NavigationLink(destination: DetailsView(chosenFavoriteElement: element)) {
+                        Text(element.name)
+                    }
+                }
+            } header: {
+                Text(favorite.title)
+            }
+        }.navigationBarTitle(Text("Favorite Book"))
+        }
 }
-
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
